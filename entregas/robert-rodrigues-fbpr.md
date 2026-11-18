@@ -4,12 +4,14 @@
 * **Tema:       Backup e Restore**
 
 ## 1. Objetivo
+
 O sistema de Backup e Restauração serve para manter e preservar a integridade dos dados do cliente, mantendo seguros mesmo após uma falha.
 
 ## 2. Ferramentas e Cuidados Técnicos
+
 * Ferramentas / Softwares: 
     - Clonezilla Live e GParted Live.
-    
+
 * Segurança / Boas Práticas:
     - Isolar a rede ou o switch durante a clonagem para evitar conflitos com outros servidores DHCP.
     - Conferir cuidadosamente os discos de origem e destino para evitar a perda de dados importantes.
@@ -18,6 +20,7 @@ O sistema de Backup e Restauração serve para manter e preservar a integridade 
     - Garantir que todos os computadores estejam conectados corretamente à rede.
 
 ## 3. Passo a Passo
+
 1. Usando o Gparted Live faça a formatação dos dois hds do Computador Servidor, usando a tabela de partição GPT, e formate em ext4. 
 
 2. Usando o Clonezilla Live, no modo device-image, crie uma imagem do disco sda, e salve no disco sdb. 
@@ -40,3 +43,5 @@ O sistema de Backup e Restauração serve para manter e preservar a integridade 
 - [ ] Confirmar se a imagem do sistema operacional foi restaurada corretamente nos discos dos clientes.
 - [ ] Verificar se o sistema operacional inicializa normalmente em todas as máquinas restauradas.
 - [ ] Confirmar se os dispositivos e configurações essenciais estão funcionando após a restauração.
+
+## Concluído !!!
