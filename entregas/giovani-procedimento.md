@@ -15,7 +15,7 @@ O processo de restauração tem a finalidade de proteger os arquivos e aplicativ
 
 * **Segurança / Boas Práticas:** 
 
-    Backup prévio
+    Backup prévio.
 
 ## 3. Passo a Passo
 1. Baixar o Rufus e o Clonezilla
