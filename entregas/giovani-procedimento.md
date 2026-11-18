@@ -23,7 +23,9 @@ O processo de restauração tem a finalidade de proteger os arquivos e aplicativ
 3. Criar um Pendrive bootável
 4. Reiniciar o computador selecionando o Pendrive como boot
 5. Siga as etapas para inicializar o Clonezilla
-6. Fazer o clone do sistema dentro do SSD.
+6. Fazer o clone do sistema dentro do SSD
+7. Verificar se a clonagem deu certo
+8. Caso tenha ocorrido algum erro, repita os passos 4 a 7
 
 ## 4. Como Validar (Teste Final)
--
+- Comparar o tamanho e a quantidade de arquivos do SSD do computador e o SSD onde foi feita a cópia.
