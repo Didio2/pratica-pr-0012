@@ -9,6 +9,7 @@ O sistema de Backup e Restauração serve para manter e preservar a integridade 
 ## 2. Ferramentas e Cuidados Técnicos
 * Ferramentas / Softwares: 
     - Clonezilla Live e GParted Live.
+    
 * Segurança / Boas Práticas:
     - Isolar a rede ou o switch durante a clonagem para evitar conflitos com outros servidores DHCP.
     - Conferir cuidadosamente os discos de origem e destino para evitar a perda de dados importantes.
