@@ -6,7 +6,7 @@
 ## 1. Objetivo
 Descreva em 2 ou 3 linhas para que serve este procedimento na manutenção de computadores.
 
-O processo de restauração tem a finalidade de proteger os arquivos e aplicativos do usuário em seu computador. Na verdade, você cria uma cópia do seu sistema operacioanl, aplicativos e dos seus arquivos (caso haja). Além disso, se você for vítima de ataque de um Cracker, poderá restaurar o sistema.
+    O processo de restauração tem a finalidade de proteger os arquivos e aplicativos do usuário em seu computador. Na verdade, você cria uma cópia do seu sistema operacioanl, aplicativos e dos seus arquivos (caso haja). Além disso, se você for vítima de ataque de um Cracker, poderá restaurar o sistema.
 
 ## 2. Ferramentas e Cuidados Técnicos
 * **Ferramentas / Softwares:** 
