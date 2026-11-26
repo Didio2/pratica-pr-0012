@@ -3,10 +3,11 @@
 * **Aluno(a):** Giovani do Nascimento Fernandes
 * **Tema:** Restore
 
-## 1. Objetivo
-Descreva em 2 ou 3 linhas para que serve este procedimento na manutenção de computadores.
 
-O processo de restauração tem a finalidade de proteger os arquivos e aplicativos do usuário em seu computador. Na verdade, você cria uma cópia do seu sistema operacioanl, aplicativos e dos seus arquivos (caso haja). Além disso, se você for vítima de ataque de um Cracker, poderá restaurar o sistema.
+## 1. Objetivo
+
+Para restaurar o sistema, você precisará conectar o Pendrive bootável na entrada USB e dar o boot na mídia USB. Uma vez iniciado o boot, deve-se seguir os passos para inicializar o Clonezilla. Quando aparecer a tela inicial do Clonezilla, indique o local onde a imagem está salva, depois selecione o modo de restauração (device-image ou local_dev), por fim informe o tipo de restauração (HD inteiro ou uma partição específica) e siga as etapas de restauração.
+
 
 ## 2. Ferramentas e Cuidados Técnicos
 * **Ferramentas / Softwares:** 
@@ -15,7 +16,10 @@ O processo de restauração tem a finalidade de proteger os arquivos e aplicativ
 
 * **Segurança / Boas Práticas:** 
 
-    Backup prévio.
+    - Selecionar com cuidado o disco de destino.
+    - Verificar se o disco de destino possui tamanho igual ou superior ao da imagem do backup.
+    - Verificar e/ou manter a energia estável.
+
 
 ## 3. Passo a Passo
 1. Baixar o Rufus e o Clonezilla
@@ -27,5 +31,8 @@ O processo de restauração tem a finalidade de proteger os arquivos e aplicativ
 7. Verificar se a clonagem deu certo
 8. Caso tenha ocorrido algum erro, repita os passos 4 a 7
 
+
 ## 4. Como Validar (Teste Final)
-- Comparar o tamanho e a quantidade de arquivos do SSD do computador e o SSD onde foi feita a cópia.
+- [ ] Teste 1: Verificar se aconteceu alguma mensagem de erro durante a restauração.
+- [ ] Teste 2: Após a restauração, reinicie o sistema operacional para verificar se o processo foi bem-sucedido.
+- [ ] Teste 3: Comparar o tamanho e a quantidade de arquivos do SSD do computador e o SSD onde foi feita a cópia.
